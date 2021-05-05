@@ -21,7 +21,7 @@ public class AllSteps extends BaseClass{
 
     @Given("the User Navigates to the E-commerceWebsite")
     public void theUserNavigatesToTheECommerceWebsite() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\selva\\IdeaProjects\\EcommerceTest\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://selvaaccenturetest.herokuapp.com/");
         driver.manage().window().maximize();
